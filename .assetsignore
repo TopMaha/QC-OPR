@@ -1,0 +1,16 @@
+# ไฟล์ที่ "ไม่" ต้องเสิร์ฟเป็น static asset จาก Worker (เสิร์ฟแค่ index.html / PWA)
+worker.js
+schema.sql
+wrangler.toml
+README.md
+.gitignore
+.assetsignore
+.git
+.github
+.claude
+.wrangler
+node_modules
+*.map
+*.toml
+*.md
+*.sql

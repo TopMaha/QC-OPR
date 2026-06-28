@@ -7,9 +7,10 @@ compatibility_date = "2024-09-23"
 [[d1_databases]]
 binding = "DB"
 database_name = "qc-opr"
-database_id = "PUT-YOUR-D1-DATABASE-ID-HERE"
+database_id = "80cb9b3c-feec-4ab4-a322-52dac91831a2"
 
-# (ทางเลือก) เสิร์ฟ PWA จาก Worker เดียวกัน — uncomment เพื่อให้ Worker เสิร์ฟ index.html ด้วย
-# [assets]
-# directory = "."
-# binding = "ASSETS"
+# เสิร์ฟ PWA (index.html) จาก Worker เดียวกัน → เปิด URL ของ Worker ได้ทั้งแอปและ API
+# ทำให้ทุกเครื่องเห็นข้อมูลชุดเดียวกันโดยไม่ต้องตั้งค่า URL เอง (same-origin)
+[assets]
+directory = "."
+binding = "ASSETS"
